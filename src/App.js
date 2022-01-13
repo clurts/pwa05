@@ -1,5 +1,4 @@
 import React, { useEffect} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import OneSignal from "react-onesignal"
 import Location from "./components/Location"
