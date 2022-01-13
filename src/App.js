@@ -1,8 +1,9 @@
 import React, { useEffect} from 'react';
 import './App.css';
 import OneSignal from "react-onesignal"
-import Location from "./components/Location"
+import LocationHook from "./components/LocationHook"
 import PWAPrompt from 'react-ios-pwa-prompt'
+import Testlocalbase from './components/Testlocalbase';
 
 function App() {
 
@@ -15,8 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Location />
-
+      <LocationHook />
 
       <PWAPrompt />
     </div>
